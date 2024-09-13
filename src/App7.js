@@ -82,7 +82,7 @@ function App7() {
       <button onClick={conexionWallet}>{connected ? "Desconectar" : "Conectar"}</button>
       <button hidden={!connected} onClick={crearToDoList}>Crear To Do List</button>
       <button hidden={!connected} onClick={tieneList}>Tiene To Do List?</button>
-      <button onClick={queryIndexer}>Query Indexer</button>
+      {/* <button onClick={queryIndexer}>Query Indexer</button> */}
     </div>
   );
 }
